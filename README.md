@@ -30,5 +30,11 @@ This session provides insights on some relevant issues often asked in regression
 > + Shrinks coefficients toward zero but not exactly to zero, which helps to stabilize the model.
 > + Penalty: $𝜆∑𝑤𝑖2$
 ​
+#### Elastic Net:
+> + Combines both L1 (Lasso) and L2 (Ridge) penalties.
+> + Provides a balance between feature selection (L1) and coefficient shrinkage (L2).
+> + Penalty: $𝜆(𝛼∑∣𝑤𝑖∣+(1−𝛼)∑𝑤𝑖2)$), where :
+> + 𝛼 controls the mix of L1 and L2.
 
-
+###  Why Regularization Helps Overfitting:
+> By penalizing large coefficients, regularization reduces the model's ability to overly fit the training data, leading to better performance on new, unseen data.
