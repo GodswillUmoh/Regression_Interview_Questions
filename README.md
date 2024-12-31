@@ -10,4 +10,4 @@ This session provides insights on some relevant issues often asked in regression
 ---
 
 ## Regularization Intuition
-+ [Click Here to view Sheet])(https://drive.google.com/file/d/1kdYNH6P9y5aQf13SOJti_-zCdrORAKHT/view?usp=drive_link)
++ [Click Here to view Sheet](https://drive.google.com/file/d/1kdYNH6P9y5aQf13SOJti_-zCdrORAKHT/view?usp=drive_link)
