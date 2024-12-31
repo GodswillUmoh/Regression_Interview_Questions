@@ -20,7 +20,15 @@ This session provides insights on some relevant issues often asked in regression
 
 ### Three Types of Regularization
 
-> 1. L1 Regularization (Lasso Regression):
+#### 1. L1 Regularization (Lasso Regression):
 > + Adds the absolute values of the coefficients as a penalty term to the loss function.
 > + Encourages sparsity by shrinking some coefficients to exactly zero, effectively performing feature selection.
 > + Penalty: $𝜆∑∣𝑤𝑖∣$
+
+#### 2. L2 Regularization (Ridge Regression):
+> + Adds the squared values of the coefficients as a penalty term.
+> + Shrinks coefficients toward zero but not exactly to zero, which helps to stabilize the model.
+> + Penalty: $𝜆∑𝑤𝑖2$
+​
+
+
